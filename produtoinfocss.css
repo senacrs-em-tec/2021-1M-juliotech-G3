@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Poppins:ital,wght@1,500&display=swap');
+:root{
+	--c-blue0: #0080D1;
+	--c-blue1: #004279;
+	--c-blue2: #181d40;
+	--c-blue3: #00ace5;
+	--c-blue4: #98b8c2;
+	
+	--m-margin0: 15px;
+}
+
+/*Header*/
+header{
+    background-color:#0080D1;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.header-logo img{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+.header-nav a{
+    color:black;
+    margin:5px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size:20px;
+    padding:0 5px 0 5px;
+    border-radius:10px;
+    background-color:#018ce2;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px;
+}
+
+
+/*Main*/
+
+#m-prod-pict{
+	background-color: var(--c-blue4);
+	margin-top: var(--m-margin0);
+
+}
+#m-prod-pict-pic
+{
+	width: 100%;
+	height: auto;
+}
+
+#m-prod-info{
+	background-color: #00000000;
+	margin-top: var(--m-margin0);
+
+}
+#m-prod-info-btns button
+{
+	width: 100%;
+	height: 50px;
+}
+
+#m-adsimilarprods{
+	background-color: var(--c-blue1);
+	margin-top: var(--m-margin0);
+	height:300px;
+	display:block;
+	overflow:auto;
+
+}
+.m-ad-row-img
+{
+	width:25%;
+	display:block;
+	float:left;
+	
+}
+.m-ad-row-img img
+{
+	width:100%;
+}
+.m-ad-row-txt
+{
+	width:75%;
+	display:block;
+	float:left;
+}
+.m-ad-row-txt p
+{
+	color:white;
+	margin:10px;
+}
+#m-ad-row
+{
+	background-color: var(--c-blue2);
+}
+
+#m-detail-box
+{
+	background-color: var(--c-blue1);
+	margin-top: var(--m-margin0);
+}
+
+#m-detail-box li
+{
+	background-color: var(--c-blue2);
+}
+#m-detail-box li button
+{
+	color: white;
+	background-color: var(--c-blue2);
+	border:0px;
+}
+
+.m-detail-inbox
+{
+	background-color: var(--c-blue4);
+	/*margin-top: var(--m-margin0);
+	*/
+}
+.m-detail-inbox p
+{
+	padding:15px;
+}
+
+
+
+
+/*Footer*/
+footer{
+    background-color:#0080D1;
+    padding-bottom:10px;
+    margin-top:50px;
+}
+.footer-logo img{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+.footer-nav a{
+    color:black;
+    margin:5px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size:20px;
+    padding:0 5px 0 5px;
+    border-radius:10px;
+    background-color:#018ce2;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px;
+}
+
+
+a, a:hover{
+    text-decoration:none;
+}
