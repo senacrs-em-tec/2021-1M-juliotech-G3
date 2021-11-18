@@ -51,6 +51,9 @@ footer{
     box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px;
 }
 /*Main*/
+li{
+    list-style: none;
+}
 #produto-nome{
     margin:10px 0 10px 0;
 }

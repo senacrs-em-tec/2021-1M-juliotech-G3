@@ -59,7 +59,9 @@ header{
     padding-top: 9px;
     padding-bottom: 5px;
 }
-
+li{
+    list-style: none;
+}
 h2 {
     text-align: center;
 }
