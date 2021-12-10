@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Poppins:ital,wght@1,500&display=swap');
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:none;
+    color:black;
+}
+/*Header*/
+header{
+    background-color:#0080D1;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.header-logo img{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+.header-nav a{
+    color:black;
+    margin:5px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size:20px;
+    padding:0 5px 0 5px;
+    border-radius:10px;
+    background-color:#018ce2;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px;
+}
+/*Footer*/
+footer{
+    background-color:#0080D1;
+    padding-bottom:10px;
+    margin-top:50px;
+}
+.footer-logo img{
+    width:200px;
+    display:block;
+    margin:auto;
+}
+.footer-nav a{
+    color:black;
+    margin:5px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size:20px;
+    padding:0 5px 0 5px;
+    border-radius:10px;
+    background-color:#018ce2;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 6px;
+}
+/*Main*/
+li{
+    list-style: none;
+}
+#produto-nome{
+    margin:10px 0 10px 0;
+}
+#produto-descriçao{
+    font-size:20px;
+    line-height: 30px;
+}
+#produto-preço{
+    color:#0080D1;
+    font-family: 'Hind Madurai', sans-serif;
+}
+#produto-banner{
+    width:100%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+#produto-img{
+    width:80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#comprar{
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: #0080D1;
+    padding:5px;
+    color:white;
+}
+#a img{
+    margin-right:10px;
+}
+@media screen and (max-width:425px){
+    #comprar{
+        margin:0 20px 0 20px;
+    }
+    #produto-preço{
+        text-align: center;
+    }
+    #produto-banner{
+        margin:20px 0 20px 0;
+    }
+    #produto-descriçao{
+        margin:0 10px 0 10px;
+    }
+}
